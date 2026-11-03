@@ -1,0 +1,9 @@
+{
+  "name": "build-a-prime-number-checker-module",
+  "version": "1.0.0",
+  "description": "A prime number checker module",
+  "keywords": ["prime", "number", "checker"],
+  "author": "Your Name",
+  "license": "MIT",
+  "type": "commonjs"
+}
