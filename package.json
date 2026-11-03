@@ -1,20 +1,19 @@
 {
-  "name": "build-a-timestamp-microservice",
-  "version": "0.0.1",
-  "description": "freeCodeCamp Certification Project",
-  "main": "server.js",
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "Family movie watchlist API",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node --env-file .env index.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "type": "module",
   "dependencies": {
-    "cors": "2.8.5",
-    "express": "5.2.1"
-  },
-  "keywords": [
-    "node",
-    "express",
-    "freecodecamp"
-  ],
-  "license": "MIT",
-  "type": "module"
+    "bcryptjs": "3.0.3",
+    "jsonwebtoken": "9.0.3",
+    "express": "5.2.1",
+    "helmet": "8.2.0"
+  }
 }
